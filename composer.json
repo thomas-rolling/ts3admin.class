@@ -1,0 +1,28 @@
+{
+    "name": "thomas-rolling/ts3admin.class",
+    "type": "library",
+    "description": "Clone of TS3 admin class developped by par0noid. Just adapt the library as composer project.",
+    "keywords": ["teamspeak", "ts3", "php"],
+    "minimum-stability": "dev",
+    "homepage": "https://github.com/thomas-rolling/ts3admin.class",
+    "license": "GPL2",
+    "authors": [
+        {
+            "name": "par0noid (Stefan Z)",
+            "email": "stefan@ts3admin.info"
+        },
+        {
+            "name": "Rolling Thomas",
+            "email": "thomas.rolling@laposte.net"
+        },
+        {
+            "name": "Bonnier David"
+        }
+    ],
+    "autoload": {
+        "files": ["lib/ts3admin.class.php"]
+    },
+    "require": {
+        "php": ">=5.5.9"
+    }
+}
